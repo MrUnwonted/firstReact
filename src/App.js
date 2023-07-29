@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 import Greet from './Components/Greet';
 import Welcome from './Components/Welcome';
+import Hook from './Components/Hook';
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
           Learn React
         </a>
       </header> */}
-     <Greet name="Arjun" />
-     <Greet name="Akhil" />
-     <Greet name="Siju" />
-      <Welcome/>
+     {/* <Greet name="Arjun" anotherName= "Arju" > 
+     <p>WhatsApp</p> </Greet>
+     <Greet name="Akhil" anotherName= "Akku" />
+     <Greet name="Siju" anotherName= "Sij"/>
+      <Welcome/> */}
+      <Hook/>
     </div>
   );
 }
